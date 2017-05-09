@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import { editFormText } from '../actions'
-import Form from '../components/Form'
+import Form from '../components/Form/Form'
 
 const mapStateToProps = (state) => {
     return {
