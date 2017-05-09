@@ -3,7 +3,7 @@ import './App.css';
 import ButtonContainer from './containers/ButtonContainer';
 import FormContainer from './containers/FormContainer';
 
-class Application extends Component {
+class App extends Component {
   render() {
     return (
       <div className="top-component">
@@ -14,4 +14,4 @@ class Application extends Component {
   }
 }
 
-export default Application;
+export default App;
