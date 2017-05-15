@@ -1,14 +1,21 @@
 import React, { Component } from 'react';
-import './App.css';
 import ButtonContainer from './containers/ButtonContainer';
 import FormContainer from './containers/FormContainer';
+
+
+require('./Application.scss');
 
 class App extends Component {
   render() {
     return (
-      <div className="top-component">
-          <ButtonContainer/>
+      <div className="Top-component">
+        <div className="Top-component__content">
           <FormContainer/>
+          <FormContainer/>
+          <FormContainer/>
+          <FormContainer/>
+    
+        </div>
       </div>
     );
   }

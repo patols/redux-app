@@ -3,8 +3,8 @@ import RaisedButton from 'material-ui/RaisedButton';
 
 // A component returning a button displaying a value that increases on click
 const Button = ({ onClick, value }) => (
-    <div className="button-component-top">
-        <RaisedButton className="button-component-top__button"
+    <div className="Button-component-top">
+        <RaisedButton className="Button-component-top__button"
             onTouchTap={() => onClick()}
             label={value}
             primary={true}>
